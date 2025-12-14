@@ -11,6 +11,7 @@ import { commandCatch } from "./command_catch.js";
 
 import type { CLICommand } from "./state.js";
 
+// Export function to get commands list
 export function getCommands(): Record<string, CLICommand> {
   return {
     help: {

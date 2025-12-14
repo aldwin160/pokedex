@@ -5,6 +5,7 @@ defines the "map" command, which allows users to navigate through paginated loca
 
 import type { State } from "./state.js";
 
+// Define map command functions
 export async function commandMapForward(state: State) {
   const locations = await state.pokeAPI.fetchLocations(state.nextLocationsURL);
 
@@ -16,6 +17,7 @@ export async function commandMapForward(state: State) {
   }
 }
 
+// Define map back command function
 export async function commandMapBack(state: State) {
   if (!state.prevLocationsURL) {
     throw new Error("you're on the first page");

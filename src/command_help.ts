@@ -5,6 +5,7 @@ defines the "help" command, which provides users with information about availabl
 
 import type { State } from "./state.js";
 
+// Define help command function
 export async function commandHelp(state: State) {
   console.log();
   console.log("Welcome to the Pokedex!");
