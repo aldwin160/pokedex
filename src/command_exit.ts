@@ -1,3 +1,8 @@
+/*
+ABOUT THIS FILE:
+defines the "exit" command, which allows users to exit the Pokedex application.
+*/
+
 import type { State } from "./state.js";
 
 export async function commandExit(state: State) {

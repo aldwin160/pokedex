@@ -1,6 +1,12 @@
+/*
+ABOUT THIS FILE:
+defines the "catch" command, which allows users to attempt to catch a Pokémon by name.
+*/
+
 import type { State } from "./state.js";
 
 export async function commandCatch(state: State, ...args: string[]) {
+  
   if (args.length !== 1) {
     throw new Error("you must provide a pokemon name");
   }

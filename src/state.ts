@@ -1,3 +1,8 @@
+/*
+ABOUT THIS FILE:
+defines the State type and initializes the application state for the Pokedex CLI application.
+*/
+
 import { createInterface, type Interface } from "readline";
 import { getCommands } from "./commands.js";
 import { PokeAPI } from "./pokeapi.js";

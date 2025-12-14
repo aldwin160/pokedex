@@ -1,3 +1,8 @@
+/*
+ABOUT THIS FILE:
+defines and exports the available CLI commands for the Pokedex application.
+*/
+
 import { commandHelp } from "./command_help.js";
 import { commandExit } from "./command_exit.js";
 import { commandMapForward, commandMapBack } from "./command_map.js";

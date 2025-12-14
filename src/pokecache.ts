@@ -1,3 +1,8 @@
+/*
+ABOUT THIS FILE:
+defines a simple caching mechanism with automatic expiration for storing key-value pairs.
+*/
+
 type CacheEntry<T> = {
   createdAt: number;
   val: T;

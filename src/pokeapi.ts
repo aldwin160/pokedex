@@ -1,3 +1,8 @@
+/*
+ABOUT THIS FILE:
+defines the PokeAPI class, which interacts with the PokéAPI to fetch data about locations and Pokémon, utilizing a caching mechanism to optimize performance.
+*/
+
 import { Cache } from "./pokecache.js";
 
 export class PokeAPI {

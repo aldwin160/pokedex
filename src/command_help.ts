@@ -1,3 +1,8 @@
+/*
+ABOUT THIS FILE:
+defines the "help" command, which provides users with information about available commands in the Pokedex application.
+*/
+
 import type { State } from "./state.js";
 
 export async function commandHelp(state: State) {

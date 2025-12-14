@@ -1,3 +1,8 @@
+/*
+ABOUT THIS FILE:
+defines the REPL (Read-Eval-Print Loop) functionality for the Pokedex application, allowing users to interactively enter commands and receive responses.
+*/
+
 import { State } from "./state.js";
 
 export async function startREPL(state: State) {

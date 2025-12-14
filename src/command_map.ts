@@ -1,3 +1,8 @@
+/*
+ABOUT THIS FILE:
+defines the "map" command, which allows users to navigate through paginated location data in the Pokedex application.
+*/
+
 import type { State } from "./state.js";
 
 export async function commandMapForward(state: State) {
